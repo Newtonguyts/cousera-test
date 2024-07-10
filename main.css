@@ -1,0 +1,38 @@
+:root {
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
+    --dark-bg: #000000;
+    --dark-text: #00ff00;
+}
+
+body {
+    font-family: monospace;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul {
+    font-family: Helvetica, sans-serif;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+.light-theme {
+    color: var(--black);          /* texto preto */
+    background-color: var(--green); /* fundo verde */
+}
+
+.dark-theme {
+    color: var(--dark-text);      /* texto verde */
+    background-color: var(--dark-bg); /* fundo preto */
+}
